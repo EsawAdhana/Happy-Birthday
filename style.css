@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color: #ffffff;
+    text-shadow: 2px 2px #391a1a;
+    background-color: #a2d2ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(lightskyblue, white);
+}
+
+
+h2, h4 {
+    background: #EFB0C9;
+    padding: 3px 5px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+#age {
+    color: gold;
+}
+
+.giftPic {
+    background-image: url("Gift.png");
+    width: 512px;
+    height: 512px;
+}
+
+.giftPic:hover {
+    background-image: url("Best.gif");
+}
+
+.giftText {
+    color: #FCD063;
+    text-shadow: 2px 2px #222222;
+    background-color: #dbe9f4;
+}
